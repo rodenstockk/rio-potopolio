@@ -149,6 +149,7 @@ input, select, textarea {
 	h1 {
 		font-size: 2em;
 		line-height: 1.5em;
+		
 	}
 
 	h2 {
@@ -3221,14 +3222,20 @@ input, select, textarea {
 
 	}
 
+#ninja-con {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: row;
+}
+
 	#ninja {
-		position: absolute;
-		top: 16%;
-		right: 34.5%;
-		width: 4rem;
-		height: auto;
+		width: 3.5rem;
+		display: flex;
+		padding-left: 5px;
+		padding-bottom: 10px;
 	}
 	#logo {
 		width: 32px;
 		margin-right: 5px;
+		padding-top: -50px;
 	}
